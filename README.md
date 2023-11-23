@@ -36,7 +36,7 @@ bootnode -nodekey boot.key
 ### To fully start the connection;
 
 Navigate to the bootNode directory
- # ./GETH/bootNode$ 
+ ### ./GETH/bootNode$ 
 
 ```sh
 bootnode -nodekey "./boot.key" -verbosity 7 -addr "127.0.0.1:30300"
