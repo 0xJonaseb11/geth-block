@@ -28,7 +28,7 @@ Create and generate a boot key
 bootnode -genkey boot.key
 ```
 
-To start a network connection,
+To start a new network connection,
 ```sh
 bootnode -nodekey boot.key
 ```
