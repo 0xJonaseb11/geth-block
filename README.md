@@ -82,7 +82,7 @@ Start mining some ether, Use console
 
 Configuration;
 ```sh
-geth --datadir "./data" --networkid 14144 --port 30303 --ipcdisable --syncmode full --mine.threads 1 console
+geth --datadir "./data" --networkid 14144 --port 30303 --ipcdisable --syncmode full --mine console
 ```
 Unlock Your account
 ```sh
