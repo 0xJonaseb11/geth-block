@@ -1,0 +1,26 @@
+=============== Nov 23, 2023 (CAT) ===============
+06:15:33.957277 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+06:15:33.959263 db@open opening
+06:15:33.960764 version@stat F·[] S·0B[] Sc·[]
+06:15:33.962209 db@janitor F·2 G·0
+06:15:33.962259 db@open done T·2.967766ms
+=============== Nov 23, 2023 (CAT) ===============
+06:17:58.025752 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+06:17:58.025845 version@stat F·[] S·0B[] Sc·[]
+06:17:58.025856 db@open opening
+06:17:58.025886 journal@recovery F·1
+06:17:58.026624 journal@recovery recovering @1
+06:17:58.027791 memdb@flush created L0@2 N·2 S·181B "loc..seq,v2":"version,v1"
+06:17:58.027993 version@stat F·[1] S·181B[181B] Sc·[0.25]
+06:17:58.031349 db@janitor F·3 G·0
+06:17:58.031409 db@open done T·5.537749ms
+=============== Nov 23, 2023 (CAT) ===============
+06:26:19.007774 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+06:26:19.007993 version@stat F·[1] S·181B[181B] Sc·[0.25]
+06:26:19.008013 db@open opening
+06:26:19.008038 journal@recovery F·1
+06:26:19.010027 journal@recovery recovering @3
+06:26:19.011491 memdb@flush created L0@5 N·8 S·278B "loc..seq,v4":"n:n..ong,v5"
+06:26:19.012144 version@stat F·[2] S·459B[459B] Sc·[0.50]
+06:26:19.015671 db@janitor F·4 G·0
+06:26:19.015706 db@open done T·7.683173ms
