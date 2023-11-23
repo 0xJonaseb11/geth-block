@@ -39,7 +39,7 @@ Navigate to the bootNode directory
  ### ./GETH/bootNode$ 
 
 ```sh
-bootnode -nodekey "./boot.key" -verbosity 7 -addr "127.0.0.1:30300"
+bootnode -nodekey "./boot.key" -verbosity 7 -addr "127.0.0.1:30303"
 ```
 Connect node1,
 
@@ -60,7 +60,7 @@ Connect node2,
 
 ```sh
 
-geth --networkid 14333 --datadir "./data" --bootnodes enode://903307600f04d59ff73ecc41016a2112aedebd4021799f764092872bd4aa75b55786bb14665f6171707ba5aa242afe7691b70303deea79ab46c0f63af6d59fed@127.0.0.1:0?discport=30301 --port 30300 --ipcdisable --syncmode full --rpc --allow-insecure-unlock --rpccorsdomain "*" --rpcport 8545 --unlock 0xa23b87d009c9023BeF10442568C3392CA3eeD89d --password password.txt console
+geth --networkid 14333 --datadir "./data" --bootnodes enode://903307600f04d59ff73ecc41016a2112aedebd4021799f764092872bd4aa75b55786bb14665f6171707ba5aa242afe7691b70303deea79ab46c0f63af6d59fed@127.0.0.1:0?discport=30301 --port 30303 --ipcdisable --syncmode full --rpc --allow-insecure-unlock --rpccorsdomain "*" --rpcport 8545 --unlock 0xa23b87d009c9023BeF10442568C3392CA3eeD89d --password password.txt console
 
 ```
 
