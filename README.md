@@ -72,6 +72,40 @@ geth --networkid 14333 --datadir "./data" --bootnodes enode://903307600f04d59ff7
 
 ```
 
+
+
+Start mining some ether, Use console 
+
+Configuration;
+```sh
+geth --datadir "./data" --networkid 14144 --port 30303 --ipcdisable --syncmode full --mine.threads 1 console
+```
+Unlock Your account
+```sh
+personal.unlockAccount("0x4586c4D4cDEBa4412832DD6a3aBD7443fF8DF481", "MOOD9999", 0)
+```
+
+Start mining
+In geth console,
+```sh
+miner.start()
+```
+
+Check mining status
+```sh
+eth.mining
+```
+
+If true, check mined blocks
+```sh
+eth.Number
+```
+
+After, when mining is done, stop mining
+```sh
+miner.stop()
+```
+
 <hr>
 
 ### @Jonas-sebera
