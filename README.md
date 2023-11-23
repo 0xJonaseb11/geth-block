@@ -71,7 +71,7 @@ geth --networkid 14144 --datadir "./data" --bootnodes enode://903307600f04d59ff7
 
 
 
-If `rpc` endpoint doesn't work, try using `http` as folows,
+If `rpc` endpoint doesn't work, try using `http` as follows,
 
 ```sh
 geth --networkid 14333 --datadir "./data" --bootnodes enode://903307600f04d59ff73ecc41016a2112aedebd4021799f764092872bd4aa75b55786bb14665f6171707ba5aa242afe7691b70303deea79ab46c0f63af6d59fed@127.0.0.1:0?discport=30301 --port 30303 --ipcdisable --syncmode full --http --allow-insecure-unlock --http.port 8545 --unlock 0xca9AdF6627A549c8D593439ab79E19f912E6dB11 --password password.txt console
