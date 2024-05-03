@@ -1,2 +1,10 @@
 .env
 info.txt
+
+# compiler files
+cache
+out
+build
+
+# tests
+coverage
