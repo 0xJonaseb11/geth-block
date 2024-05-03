@@ -98,7 +98,7 @@ geth --datadir "./data" --networkid 14144 --port 30303 --ipcdisable --syncmode f
 `Unlock Your account`
 
 ```sh
-personal.unlockAccount("0xa23b87d009c9023BeF10442568C3392CA3eeD89d", "MOOD9999", 0)
+personal.unlockAccount("contract_account_address", "password", 0)
 ```
 
 `Start mining`
