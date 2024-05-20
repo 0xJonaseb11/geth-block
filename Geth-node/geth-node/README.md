@@ -25,6 +25,7 @@ geth --datadir geth-node --sepolia --syncmode snap
 ```sh
 # start console and interact
 geth attach geth-node/geth.ipc
+# note that websockets are preferred when it comes to supertial web3 dapps notifications
 
 # Get accounts that are connected
 geth.accounts
