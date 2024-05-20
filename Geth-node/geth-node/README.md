@@ -14,8 +14,12 @@ geth account new
 
 ```sh
 # I use snap syncnode because it is quicker that full syncnde
-# to start the geth
+# to start the geth with snap
 geth --datadir geth-node --sepolia --syncmode snap
+# Start a full syncnode
+geth --datadir geth-node --sepolia --syncmode full
+# Start light syncnode
+geth --datadir get-node --sepolia --syncmode light
 # It then awaits for other nodes to connect
 # To interact - it uses RPC APIs (Remote Procedure Call)
 ```
@@ -28,7 +32,7 @@ geth attach geth-node/geth.ipc
 # note that websockets are preferred when it comes to supertial web3 dapps notifications
 
 # Get accounts that are connected
-geth.accounts
+eth.accounts
 
 # Check for ether balance of the account
 web3.fromWei(eth.getBalance("<address>"), "ether")
